@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="sm-jumbotron center-align">
+        <h1>WELCOME TO USER REGISTRATION PAGE</h1>
+    </div>
+    <div id="demo">
+        <form [formGroup]='RegisterForm'>
+
+            <div class="row ">
+                <div class="col-sm-3 ">
+                    <label>Name</label></div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" formControlName='Name' class="form-control">
+                </div>
+            </div><br>
+            <div class="row ">
+                <div class="col-sm-3 ">
+                    <label>Gender</label></div>
+                <div class="col-sm-3">
+                    <input type="radio" name="same">Male
+                    <input type="radio" name="same">Female
+                </div>
+            </div>
+  
+           
+            <div class="row ">
+                <div class="col-sm-3">
+                    <label>Email</label></div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" formControlName='Gender' class="form-control">
+                </div>
+            </div><br>
+            <div class="row ">
+                <div class="col-sm-3">
+                    <label>Mobile Number</label></div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" formControlName='Gender' class="form-control">
+                </div>
+            </div><br>
+            <div class="row ">
+                <div class="col-sm-3">
+                    <label>Password</label></div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" formControlName='Gender' class="form-control">
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-3">
+                    <label>Roles</label></div>
+                <div class="col-sm-3">
+                    <input type="checkbox" name="same" >Admin
+                    <input type="checkbox"  name="same" >App User
+                </div>
+            </div>
+       
+        </form><br>
+        <div class="row" id="demo1">
+            <button class="btn btn-primary">Register</button>
+        </div>
+    </div>
+
+</div>

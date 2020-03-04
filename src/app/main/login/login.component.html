@@ -1,0 +1,30 @@
+
+<div class="container">
+    <div class="sm-jumbotron center-align">
+        <h1>WELCOME TO USER LOGIN PAGE</h1>
+    </div>
+    <div id="demo">
+        <form [formGroup]='loginForm'>
+<div>
+            <div class="row ">
+                <div class="col-sm-3 ">
+                    <label>UserID</label></div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" formControlName='UserID' class="form-control">
+                </div>
+            </div><br>
+            <div class="row ">
+                <div class="col-sm-3">
+                    <label>Password</label></div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" formControlName='Password' class="form-control">
+                </div>
+            </div>
+        </div>
+        </form>
+        <div class="row">
+            <button class="btn btn-success">Login</button>
+        </div>
+    </div>
+
+</div>

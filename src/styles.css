@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+div.sm-jumbotron{
+    margin:0px;
+    padding:2rem;
+    background-color:#10a4c9;
+    color:#fff;
+
+
+}
+#demo{
+    border:1px solid black;
+    padding:8rem;
+}
+#demo1{
+    text-align:center;
+}
